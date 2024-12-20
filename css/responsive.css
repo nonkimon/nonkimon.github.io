@@ -1,0 +1,65 @@
+/* スマートフォン向けスタイル */
+@media screen and (max-width: 767px) {
+    /* 基本設定 */
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 40px 0;
+    }
+
+    /* ヘッダー */
+    .main-copy {
+        font-size: 24px;
+    }
+
+    /* セクション見出し */
+    .section-title {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    /* メリット説明パート */
+    .benefit-item {
+        padding: 15px;
+    }
+
+    .benefit-title {
+        font-size: 18px;
+    }
+
+    /* 実践者の声パート */
+    .voice-item {
+        padding: 20px;
+    }
+
+    /* 特典案内パート */
+    .campaign-text {
+        font-size: 20px;
+    }
+
+    .bonus-content {
+        padding: 20px;
+    }
+
+    .bonus-main-title {
+        font-size: 20px;
+    }
+
+    /* フォームパート */
+    .form-wrapper {
+        padding: 20px;
+    }
+
+    .button, .submit-button {
+        padding: 12px 30px;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    /* 余白の調整 */
+    .container {
+        padding: 0 15px;
+    }
+}
